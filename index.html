@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Uzbekistan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на <span class="highlight">сайт Tesla!</span></h1>
+    </header>
+
+    <section class="content">
+        <h2>Вы здесь узнаете о машинах Tesla</h2>
+        <ul class="car-list">
+            <li>🚗 <span class="model-y">Tesla Model Y</span></li>
+            <li>🚙 <span class="model-x">Tesla Model X</span></li>
+            <li>🚘 <span class="model-3">Tesla Model 3</span></li>
+            <li>🚖 <span class="model-s">Tesla Model S</span></li>
+        </ul>
+
+        <h3>Полная информация о Tesla</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Модель</th>
+                    <th>Батарея</th>
+                    <th>0-100 км/ч</th>
+                    <th>Макс. скорость</th>
+                    <th>Запас хода</th>
+                    <th>Мощность</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="model-y-row">
+                    <td>Model Y</td>
+                    <td>90 кВт⋅ч</td>
+                    <td>3.8 сек</td>
+                    <td>217 км/ч</td>
+                    <td>533 км (WLTP)</td>
+                    <td>345 л.с.</td>
+                </tr>
+                <tr class="model-x-row">
+                    <td>Model X</td>
+                    <td>100 кВт⋅ч</td>
+                    <td>3.9 сек</td>
+                    <td>250 км/ч</td>
+                    <td>576 км (WLTP)</td>
+                    <td>680 л.с.</td>
+                </tr>
+                <tr class="model-3-row">
+                    <td>Model 3</td>
+                    <td>82 кВт⋅ч</td>
+                    <td>4.4 сек</td>
+                    <td>250 км/ч</td>
+                    <td>579 км (WLTP)</td>
+                    <td>499 л.с.</td>
+                </tr>
+                <tr class="model-s-row">
+                    <td>Model S</td>
+                    <td>100 кВт⋅ч</td>
+                    <td>3.2 сек</td>
+                    <td>250 км/ч</td>
+                    <td>634 км (WLTP)</td>
+                    <td>680 л.с.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Выберите цвет машины</h3>
+        <form>
+            <div class="radio-buttons">
+                <label><input type="radio" name="model" value="Model Y"> Tesla Model Y</label>
+                <label><input type="radio" name="model" value="Model X"> Tesla Model X</label>
+                <label><input type="radio" name="model" value="Model 3"> Tesla Model 3</label>
+                <label><input type="radio" name="model" value="Model S"> Tesla Model S</label>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+
+        <div class="car-images">
+            <img src="black_model_y.jpg" alt="Tesla Model Y">
+            <img src="grey_model_x.jpg" alt="Tesla Model X">
+            <img src="red_model_3.jpg" alt="Tesla Model 3">
+            <img src="blue_model_s.jpg" alt="Tesla Model S">
+        </div>
+
+        <h3>Адрес Tesla Service Tashkent</h3>
+        <iframe 
+            src="https://www.google.com/maps?q=Tesla+service+Tashkent&output=embed"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+</body>
+</html>
